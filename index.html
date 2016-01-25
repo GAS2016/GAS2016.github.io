@@ -1,18 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>GAS2016 Raw Data and Models</title>
-    <h1>GAS2016 Raw Data and Models</H1>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GAS2016 Raw Data and Models</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <ul>
-        <li>
-            <a href="postmortems">Postmortems list</a>
-            <a href="terms/terms_all.md">Terms</a>
-            <a href="postmortems_notes.md">Postmortems notes</a>
-            <a href="processes">Postmortems processes</a>
-        </li>
-    </ul>
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
 
-</head>
-<body>
+            <div class="masthead">
+                <h3 class="text-muted">Postmortem Process Analysis</h3>
+                <nav>
+                  <ul class="nav nav-justified">
+                      <!-- <li><a href="#">Home</a></li> -->
+                      <li><a href="#processes">Processes</a></li>
+                      <li><a href="#keywords">Keywords</a></li>
+                      <li><a href="#notes">Notes</a></li>
+                      <li><a href="#list">Postmortem List</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </nav>
+            </div>
+
+            <div class="jumbotron">
+              <h1>GAS2016</h1>
+              <h2>Raw Data and Models</h2>
+              <p class="lead">Data used in paper: <br>
+                  <b>"Are the old days gone? A survey on actual software engineering processes in video game industry"</b>
+               </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12" id="processes">
+                    <h2>Processes</h2>
+                    <p>
+                        List of postmortem processes in PDF format.
+                    </p>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><a href="processes/1_-_brutal_legend.pdf"> brutal legend </a></li>
+                            <li><a href="processes/2_-_kingdoms_of_amalur.pdf "> kingdoms of amalur </a></li>
+                            <li><a href="processes/3_-_caseys_contraptions.pdf"> caseys contraptions </a></li>
+                            <li><a href="processes/4_-_sins_of_a_solar_empire.pdf"> sins of a solar empire </a></li>
+                            <li><a href="processes/5_-_amnesia:_a_machine_for_pigs.pdf"> amnesia: a machine for pigs </a></li>
+                            <li><a href="processes/6_-_city_conquest.pdf"> city conquest </a></li>
+                            <li><a href="processes/7_-_baldurs_gate_enhanced_edition.pdf"> baldurs gate enhanced edition </a></li>
+                            <li><a href="processes/8_-_trine.pdf"> trine </a></li>
+                            <li><a href="processes/9_-_natural_selection_2.pdf"> natural selection 2 </a></li>
+                            <li><a href="processes/10_-_the_path.pdf"> the path </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><a href="processes/11_-_dust_an_elysian_tail.pdf"> dust an elysian tail </a></li>
+                            <li><a href="processes/12_-_anomaly_warzone_earth.pdf"> anomalywarzone earth </a></li>
+                            <li><a href="processes/13_-_a_reckless_disregard_for_gravity.pdf"> a reckless disregard for gravity </a></li>
+                            <li><a href="processes/14_-_scooby-doo_first_frights.pdf"> scooby-doo first frights </a></li>
+                            <li><a href="processes/15_-_spider_man.pdf"> spider-man </a></li>
+                            <li><a href="processes/16_-_deadliest_warrior.pdf"> deadliest warrior </a></li>
+                            <li><a href="processes/17_-_zack_zero.pdf"> zack zero </a></li>
+                            <li><a href="processes/18_-_god_of_war_ascension.pdf"> god of war ascension </a></li>
+                            <li><a href="processes/19_-_electronic_symphony.pdf"> electronic symphony </a></li>
+                            <li><a href="processes/20_-_guacamelee.pdf"> guacamelee </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-12" id="keywords">
+                    <h2>Keywords</h2>
+                    <p>
+                        Keywords used for filtering the postmortems.
+                    </p>
+                    <p><a class="btn btn-primary" href="terms/terms_all.md" role="button"><span class="glyphicon glyphicon-file"></span> Open Keywords file »</a></p>
+                </div>
+
+                <div class="col-lg-12" id="notes">
+                    <h2>Notes</h2>
+                    <p>
+                        Notes and its respective quotations extracted from 20 postmortems analyses.
+                    </p>
+                    <p><a class="btn btn-primary" href="postmortems_notes.md" role="button"><span class="glyphicon glyphicon-file"></span> Open Notes file »</a></p>
+                </div>
+                    <div class="col-lg-12" id="list">
+                    <h2>Post</h2>
+                    <p>
+                        List of all collected postmortems.
+                    </p>
+                    <ul>
+                        <li><a href="postmortems/gamasutra.com-A_Mini-Postmortem_Roundup.pdf"> A Mini-Postmortem Roundup </a></li>
+                        <li><a href="postmortems/gamasutra.com-A_Story_Of_GameLayers_Inc.pdf"> A Story Of GameLayers Inc </a></li>
+                        <li><a href="postmortems/gamasutra.com-Dissecting_The_Postmortem_Lessons_Learned_From_Two_Years_Of_Game_Development_Self-Reportage.pdf"> Dissecting The Postmortem Lessons Learned From Two Years Of Game Development Self-Reportage </a></li>
+                        <li><a href="postmortems/gamasutra.com-Friends_forever_The_story_of_Sportsfriends.pdf"> Friends forever The story of Sportsfriends </a></li>
+                        <li><a href="postmortems/gamasutra.com-Lumines_Electronic_Symphony_The_Untold_Story.pdf"> Lumines Electronic Symphony The Untold Story </a></li>
+                        <li><a href="postmortems/gamasutra.com-Monsters_from_the_Id_The_Making_of_Doom.pdf"> Monsters from the Id The Making of Doom </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_-_Sony_Santa_Monicas_God_of_War_Ascension.pdf"> Sony Santa Monicas God of War Ascension </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_11_Bit_Studios_Anomaly_Warzone_Earth.pdf"> 11 Bit Studios Anomaly Warzone Earth </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Appy_Entertainments_Animal_Legends.pdf"> Appy Entertainments Animal Legends </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Appy_Entertainments_SpellCraft_School_of_Magic.pdf"> Appy Entertainments SpellCraft School of Magic </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Arrowhead_Game_Studios_Magicka.pdf"> Arrowhead Game Studios Magicka </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Avalanche_Studios_Renegade_Ops.pdf"> Avalanche Studios Renegade Ops </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Bane_Games_Flick_Buddies.pdf"> Bane Games Flick Buddies </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Blitz_Games_Droplitz.pdf"> Blitz Games Droplitz </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Capcoms_Okamiden.pdf"> Capcoms Okamiden </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Crocodile_Entertainments_Zack_Zero.pdf"> Crocodile Entertainments Zack Zero </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_CyberConnect_2s_Solatorobo_Red_the_Hunter.pdf"> CyberConnect 2s Solatorobo Red the Hunter </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Days_of_Wonders_Ticket_to_Ride_Pocket.pdf"> Days of Wonders Ticket to Ride Pocket </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Dejobaan_Games_Aaaaa_--_A_Reckless_Disregard_for_Gravity.pdf"> Dejobaan Games Aaaaa -- A Reckless Disregard for Gravity </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Double_Fines_Brutal_Legend.pdf"> Double Fines Brutal Legend </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_DrinkBox_Studios_Guacamelee.pdf"> DrinkBox Studios Guacamelee </a></li>
+
+
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Frozenbytes_Trine.pdf"> Frozenbytes Trine </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Game_Developer_magazine.pdf"> Game Developer magazine </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_HandCircus_Okabu.pdf"> HandCircus Okabu </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_High_Voltage_Softwares_Conduit_2.pdf"> High Voltage Softwares Conduit 2 </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Housemarques_Outland.pdf"> Housemarques Outland </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Humble_Hearts_Dust_An_Elysian_Tail.pdf"> Humble Hearts Dust An Elysian Tail </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Intelligence_Engine_Design_Systems_City_Conquest.pdf"> Intelligence Engine Design Systems City Conquest </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Kingdoms_of_Amalur_Reckoning.pdf"> Kingdoms of Amalur Reckoning </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Llopis_and_Friginals_Caseys_Contraptions.pdf"> Llopis and Friginals Caseys Contraptions </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Magnin_amp_Associates_Skittleball.pdf"> Magnin amp Associates Skittleball </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_McMillen_and_Himsls_The_Binding_of_Isaac.pdf"> McMillen and Himsls The Binding of Isaac </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Mediatonics_Monsters_Probably_Stole_My_Princess.pdf"> Mediatonics Monsters Probably Stole My Princess </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Mode_7_Games_Frozen_Synapse.pdf"> Mode 7 Games Frozen Synapse </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Mommys_Best_Games_Explosionade.pdf"> Mommys Best Games Explosionade </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Over_the_Top_Games_NyxQuest_Kindred_Spirits.pdf"> Over the Top Games NyxQuest Kindred Spirits </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Overhaul_Games_Baldurs_Gate_Enhanced_Edition.pdf"> Overhaul Games Baldurs Gate Enhanced Edition </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Pangalores_Knightly_Adventure.pdf"> Pangalores Knightly Adventure </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Pinball-RPG_hybrid_Rollers_of_the_Realm.pdf"> Pinball-RPG hybrid Rollers of the Realm </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Pipeworks_Softwares_Deadliest_Warrior.pdf"> Pipeworks Softwares Deadliest Warrior </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Q-Games_Pixeljunk_4am.pdf"> Q-Games Pixeljunk 4am </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Resident_Evil_4.pdf"> Resident Evil 4 </a></li>
+
+
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Sarbakans_Lazy_Raiders.pdf"> Sarbakans Lazy Raiders </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_SegaOther_Oceans_Super_Monkey_Ball_2.pdf"> SegaOther Oceans Super Monkey Ball 2 </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Smudged_Cat_Games_The_Adventures_Of_Shuggy.pdf"> Smudged Cat Games The Adventures Of Shuggy </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Sony_Bend_Studios_Uncharted_Golden_Abyss.pdf"> Sony Bend Studios Uncharted Golden Abyss </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Stardock_Entertainment_and_Ironclad_Games_Sins_of_a_Solar_Empire_Rebellion.pdf"> Stardock Entertainment and Ironclad Games Sins of a Solar Empire Rebellion </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_State_of_Plays_Lume.pdf"> State of Plays Lume </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Tale_of_Tales_The_Path.pdf"> Tale of Tales The Path </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Team_Meats_Super_Meat_Boy.pdf"> Team Meats Super Meat Boy </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_The_Chinese_Rooms_Amnesia_A_Machine_for_Pigs.pdf"> The Chinese Rooms Amnesia A Machine for Pigs </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Torus_Games_Scooby-Doo_First_Frights.pdf"> Torus Games Scooby-Doo First Frights </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Treyarchs_2002_hit_Spider-Man.pdf"> Treyarchs 2002 hit Spider-Man </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Unknown_Worlds_Entertainments_Natural_Selection_2.pdf"> Unknown Worlds Entertainments Natural Selection 2 </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Vector_Units_Hydro_Thunder_Hurricane.pdf"> Vector Units Hydro Thunder Hurricane </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Vector_Units_Riptide_GP.pdf"> Vector Units Riptide GP </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Vicious_Cycles_Matt_Hazard_Blood_Bath_and_Beyond.pdf"> Vicious Cycles Matt Hazard Blood Bath and Beyond </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Vivid_Games_Real_Boxing.pdf"> Vivid Games Real Boxing </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Vlambeers_Gun_Godz.pdf"> Vlambeers Gun Godz </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_WayForwards_A_Boy_and_His_Blob.pdf"> WayForwards A Boy and His Blob </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_Zachtronics_Industries_SpaceChem.pdf"> Zachtronics Industries SpaceChem </a></li>
+                        <li><a href="postmortems/gamasutra.com-Postmortem_zGames_Pong_World.pdf"> zGames Pong World </a></li>
+                        <li><a href="postmortems/gamasutra.com-What_Went_Wrong.pdf"> What Went Wrong </a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-12" id="contact">
+                    <footer class="footer">
+                        <p><span class="glyphicon glyphicon-envelope"></span> crispolitowski@inf.ufsm.br | fabio@petrillo.com</p>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </body>
+</html>

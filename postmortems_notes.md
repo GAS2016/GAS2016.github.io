@@ -1,11 +1,4 @@
 # Postmortems Notes
-> Aspectos de engenharia de software.
-> Processos, ferramentas, práticas, etc
-Por exemplo: existe alguma referencia para controle de versão?
-CVS, Git, SVN, etc
-Integracão contínua
-Teste unitaário; práticas de teste, etc
-O meu artigo sobre práticas práticas ágeis para jogos é um ponto de partida.
 
 ## Double Fines Brutal Legend
 1. collaborative development [1]
